@@ -30,3 +30,28 @@ alt+shift+shigjeten te poshte = <li>skjfkdjfkj</li>
 <li></li>
 <li></li>
 <li></li>
+ctrl+y=perpara me shku ku je kon
+ctrl=z=permas me shku ku je kon
+<p>Lorem ipsum <a href="link"></a> dolor sit amet consectetur adipisicing elit. Dolorum tempora id quas laudantium in
+    ipsam sunt eveniet, eum magnam odit unde quisquam, iure distinctio, doloremque ducimus voluptatibus optio officiis
+    illo.</p>
+folderi assets hin videos, audios, images, css etc.
+nese e bomi type munesh me shti ne kllapa color ("color")
+<input type="color" ose placeholder="email">
+<button>Done</button>
+nese nuk domi placeholder ather
+<label for="email">Email</label>
+<input type="email" placeholder="email" <div></div>eshte me i bo senet bashk
+<nav>
+    brenda e shtin <ul>
+        brenda <ul> e shtin <li></li>edhe e mbyll </ul>
+</nav>
+<section></section> mrena <main></main> edhe mumi mi qel sa te domi <section></section>
+mbrenda qka jon <section></section> e shtin <article></article>
+mrena <article></article> e shtin <figure></figure>
+mrena <figure></figure> e shtin <figcaption></figcaption>
+mrena <footer></footer> e shtin <p></p>
+<aside></aside> mrena <mein></mein> edhe nuk bon mrena <header></header>
+me video: e bon sare edhe embed edhe e bon copy
+frameborarder qe esht mrena iframe esht per ato vijat
+<hr> horizontal line
