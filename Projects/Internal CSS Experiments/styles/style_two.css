@@ -1,0 +1,23 @@
+h1 {
+    background-color: aqua;
+    color: rgb(223, 3, 3);
+    width: 100%;
+}
+
+h2 {
+    background-color: brown;
+    color: blueviolet;
+    width: 100%;
+}
+
+h3 {
+    background-color: black;
+    color: aquamarine;
+    width: 100%;
+}
+
+p {
+    background-color: rgb(41, 255, 18);
+    color: black;
+    width: 100%;
+}
