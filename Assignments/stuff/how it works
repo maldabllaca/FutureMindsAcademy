@@ -55,3 +55,27 @@ mrena <footer></footer> e shtin <p></p>
 me video: e bon sare edhe embed edhe e bon copy
 frameborarder qe esht mrena iframe esht per ato vijat
 <hr> horizontal line
+css
+(.) is for Classes
+id ka privilegj ma te madh
+<form action="">
+    .card~h1
+    .card+h1 veq jasht kur o direkt
+    .class-name, h1, #id-name{
+    background-color: white;
+    }
+    rgb me i marr ngjyrat ndryshe
+    h1 {
+    background-color: rgb (214, 25, 25) nese e shton a te rgb duhet me bo rgba (214, 25, 25, 1);
+    }
+    body {
+    background-image: url ((./)qfare dush foto qe e ke rujt ose qe e ke zjgedh me bo);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color
+    background-blend-mode: color;
+
+    }
+    mumi me check out te background for desktop ne google
+    <!-- Style --> ctrl+/
