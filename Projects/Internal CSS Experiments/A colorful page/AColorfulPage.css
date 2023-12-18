@@ -1,0 +1,23 @@
+body {
+    background: url(./images/background.avif) no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: magenta;
+}
+
+.title {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(152, 151, 151, 1) 0%, rgba(217, 219, 219, 1) 9%, rgba(230, 230, 230, 1) 10%, rgba(255, 255, 255, 1) 14%, rgba(82, 218, 253, 1) 42%, rgba(0, 8, 233, 1) 73%, rgba(3, 0, 255, 1) 100%);
+}
+
+.main {
+    color: magenta;
+    background: rgba(2, 0, 32, 0.325)
+}
+
+p {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(152, 151, 151, 1) 0%, rgba(217, 219, 219, 1) 9%, rgba(230, 230, 230, 1) 10%, rgba(255, 255, 255, 1) 14%, rgba(82, 218, 253, 1) 42%, rgba(0, 8, 233, 1) 73%, rgba(3, 0, 255, 1) 100%);
+}
