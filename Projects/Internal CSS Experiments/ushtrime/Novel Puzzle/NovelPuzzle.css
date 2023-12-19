@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: lightgrey;
+    width: 50%;
+
+}
+
+.cardFirstWord {
+    font-weight: bold;
+}
+
+.cardFirstLetter {
+    font-size: 50px;
+    text-decoration: underline red;
+    float: inline-start;
+}
