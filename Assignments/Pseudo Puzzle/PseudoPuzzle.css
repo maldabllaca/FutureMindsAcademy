@@ -1,0 +1,8 @@
+p:hover:first-letter {
+    font: left;
+    font-size: 60px;
+}
+
+p:hover:hover {
+    background-color: aqua;
+}
