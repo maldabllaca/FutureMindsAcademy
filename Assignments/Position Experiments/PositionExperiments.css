@@ -1,0 +1,38 @@
+.card {
+    width: 500px;
+    box-shadow: -1px 2px 23px -11px rgba(55, 40, 40, 0.7);
+    -webkit-box-shadow: -1px 2px 23px -11px rgba(55, 40, 40, 0.7);
+    -moz-box-shadow: -1px 2px 23px -11px rgba(55, 40, 40, 0.7);
+    position: relative;
+    padding: 5px;
+    margin: 40px 0;
+}
+
+.card h1 {
+    position: absolute;
+    top: -30px;
+}
+
+.card button {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.cardVideo {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.cardVideo p {
+    text-align: center;
+}
