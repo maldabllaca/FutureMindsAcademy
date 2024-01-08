@@ -1,9 +1,21 @@
 body {
-    padding: 20px;
-    border-style: groove;
-    width: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: aqua;
+    color: black;
+    flex-direction: column;
+    border-style: solid;
     align-items: center;
     justify-content: center;
     display: flex;
-    outline-style: groove;
+    position: absolute;
+    top: 40%;
+    right: 40%;
 }
