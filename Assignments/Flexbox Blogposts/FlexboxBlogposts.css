@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    height: 90vh;
+    width: 10vw;
+    padding: 50px;
+
+}
+
+aside h1 {
+    font-size: 2rem;
+}
+
+aside p {
+    font-size: 2rem;
+}
+
+.asideButton {
+    background-color: transparent;
+    padding: 20px 30px;
+    border: 50px solid white;
+    margin-top: 60px;
+}
+
+.cardHeader,
+.cardBodyImg {
+    margin: 20px 0px;
+}
+
+.justifyContentSpaceBetween .dFlex,
+.cardBodyImg {
+    margin: 10px 0px;
+}
+
+.card,
+.justifyContentSpaceBetween {
+    margin: 50px 0px;
+}
+
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    height: 10vh;
+    width: 90vw;
+    padding: 20px 100px;
+}
+
+
+.textWhite {
+    color: white;
+}
+
+.textBlue {
+    color: blue;
+}
+
+.flexDirectionColumn {
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(45, 45, 106);
+    color: aliceblue;
+}
+
+.button1 {
+    background-color: rgb(45, 45, 106);
+    color: aliceblue;
+    border-color: white;
+}
+
+.button2 {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+.button3 {
+    background-color: rgb(66, 154, 209);
+    color: white;
+    border-color: rgb(66, 154, 209);
+}
+
+.button4 {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.cardBody {
+    align-items: center;
+}
+
+
+
+.cardBodyImg img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
