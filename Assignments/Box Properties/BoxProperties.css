@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+.card p img {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    border: 2px solid;
+    padding: 1px;
+    vertical-align: text-bottom;
+}
+
+
+.card p img:hover {
+    padding: 3px;
+    width: 220px;
+    cursor: pointer;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 20px;
+}
