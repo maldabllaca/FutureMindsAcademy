@@ -7,7 +7,7 @@ body {
     background-color: bisque;
     display: grid;
     grid-template-columns: 50px 1fr 50px;
-    grid-template-rows: 100px 100px 1fr 50px;
+    grid-template-rows: 100px 100px 1fr;
     height: 100vh;
 }
 
@@ -29,12 +29,4 @@ main {
 main h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-footer {
-    background-color: red;
-    grid-column: 1/4;
-    grid-row: 4/5;
-    text-align: center;
-    align-items: center;
 }
