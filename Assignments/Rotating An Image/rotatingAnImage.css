@@ -7,12 +7,14 @@ body {
 }
 
 img {
-    transition-property: background-color, transform;
+    transition-property: filter, transform;
     transition-duration: 4s;
     transition-delay: 1s;
     transition-timing-function: ease-in;
+    filter: blur(10px);
 }
 
 img:hover {
     transform: rotate(720deg);
+    filter: blur(0px);
 }
