@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 300vh;
+}
+
+.card {
+    background-color: red;
+    width: 500px;
+    font-size: 100px;
+    top: 0;
+    right: 0;
+    position: sticky;
+}
+
+.card h1 {
+    font-size: 5rem;
+}
+
+.card1 h1 {
+    font-size: ;
+}
+
+.card1 {
+    background-color: blue;
+    width: 500px;
+    font-size: 100px;
+}
+
+.cardBody {
+    width: 50%;
+    background-color: green;
+}

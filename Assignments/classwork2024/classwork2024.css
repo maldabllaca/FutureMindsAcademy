@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+label {
+    visibility: hidden;
+}
+
+input:focus+label {
+    visibility: hidden;
+    animation: malda .5s forwards;
+}
+
+@keyframes malda {
+    from {
+        visibility: hidden;
+        transform: translateY(5px);
+    }
+
+    to {
+        visibility: visible;
+        transform: translateY(0px);
+    }
+}
+
+
+
+button {
+    background-color: blue;
+    padding: 5px;
+
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 30px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotate .8s infinite linear forwards;
+}
