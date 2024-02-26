@@ -18,8 +18,8 @@ body {
 
 
 .card p img:hover {
-    padding: 3px;
-    width: 220px;
+    padding: 10px;
+    width: 200px;
     cursor: pointer;
     border-color: red;
     border-style: dashed;

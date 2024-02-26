@@ -79,3 +79,35 @@ id ka privilegj ma te madh
     }
     mumi me check out te background for desktop ne google
     <!-- Style --> ctrl+/
+    blloki e merr dej nfund
+    none e hek
+    visibility hidden e run venin amo heken
+    .card:hover .leon {
+    visibility: hidden;
+    display: none;
+    }
+    .card .leon {
+    podition: absolute; e kshyr faqen
+    top: ;
+    left: ;
+    right: -20px; te mas
+    bottom: 0; ne fund te faqes
+    }
+
+    .card {
+    width: ;
+    height: ;
+    position: relative; me kshyr prindin
+    } ose nese o position: sticky tana met edhe bottom: 0; bohet sticky henez
+    body {
+    height: ;
+
+    }
+    box shadow css generator (me ja lon ni shadow) copy e marrmi veq bow-shadow te fundit
+    cursor (ka po don me shku) default o ma mir se nese nuk bon cursor, default bon tana
+    per maus per te kejt elementet e bon cursor edhe ne fund default
+    te karta pa u bo hover e bon border: ?px solid transparent; transparent esht pa ngjyrat
+    ngjyren ja bon te hover edhe i thu border: ?px solid edhe ngjyren;
+    global ja bon edhe munesh ma shkurt mi ra ne class
+    te * ose munesh edhe te margin edhe padding me e bo cursor: url (thojzen niher edhe tana linkin) 90 10 (nr i par
+    esht per me shku djathtas edhe tjetri majtas), default

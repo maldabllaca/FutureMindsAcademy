@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100vh;
+}
+
+aside {
+    background-color: rgb(49, 49, 116);
+    align-items: center;
+}
+
+aside h1 {
+    font-size: 2rem;
+    display: grid;
+    align-items: end;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+aside p {
+    font-size: 2rem;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.asideButton {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 2px solid aliceblue;
+    margin-top: 20px;
+}

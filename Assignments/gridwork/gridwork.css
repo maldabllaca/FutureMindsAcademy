@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: black;
+    width: 100px;
+    height: 70px;
+    border: 0cap;
+    transition: background-color 3s, width 2s, height 2s 2s ease;
+}
+
+button:hover {
+    background-color: azure;
+    width: 100vw;
+    height: 97vh;
+    transform: rotate(720deg)
+}
