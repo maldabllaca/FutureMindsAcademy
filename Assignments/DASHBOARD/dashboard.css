@@ -15,14 +15,17 @@ body {
 
 /* Global */
 .marginTopPadding {
-    margin-top: -50px;
+    margin-top: -70px;
     padding: 15px;
+}
+
+.border-radious-5px {
+    border-radius: 5px;
 }
 
 .borderradious {
     margin: 15px;
     background-color: whitesmoke;
-    border-radius: 5px;
 }
 
 .gap15 {
@@ -38,6 +41,11 @@ body {
     display: grid;
 }
 
+.borderRadiousCards {
+    margin: 35px;
+    background-color: whitesmoke;
+}
+
 .gridTemplateColumnsAuto1fr {
     grid-template-columns: auto 1fr;
 }
@@ -49,6 +57,10 @@ body {
 
 .Gap10 {
     gap: 10px 10px;
+}
+
+.justifyContentCenter {
+    justify-content: center;
 }
 
 .spacebetween {
@@ -142,7 +154,6 @@ figure {}
 /* main */
 
 .couchIcon {
-    margin-top: -50px;
     background-color: orange;
     padding: 15px;
 }
@@ -208,4 +219,8 @@ img {
     visibility: hidden;
     position: absolute;
     bottom: 0;
+}
+
+.ManageListingPadding {
+    padding: 30px;
 }
