@@ -18,10 +18,10 @@ body {
 
 
 .card p img:hover {
-    padding: 10px;
+    display: flex;
     width: 200px;
     cursor: pointer;
     border-color: red;
     border-style: dashed;
-    border-radius: 20px;
+    flex-wrap: nowrap;
 }
