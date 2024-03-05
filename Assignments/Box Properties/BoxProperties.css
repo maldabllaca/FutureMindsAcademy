@@ -12,7 +12,6 @@ body {
     margin: 10px;
     width: 200px;
     border: 2px solid;
-    padding: 1px;
     vertical-align: text-bottom;
 }
 
@@ -24,4 +23,5 @@ body {
     border-color: red;
     border-style: dashed;
     flex-wrap: nowrap;
+    padding: 1px;
 }
