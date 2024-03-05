@@ -23,3 +23,187 @@
 </body>
 
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let userGrade = parseInt(prompt('Write your grade here:'));
+        if (string < 0 || ) {
+            throw new Error('Please write a valid number')
+        };
+     else if (userGrade < 80) {
+            grade = 4;
+        }
+
+        else { grade = 5 }
+
+        alert('Your grade is $(grade)')
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let year = parseInt(prompt("Enter "))
+
+        if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
+            console.log(year + "is not a leap year.");
+        }
+
+        else {
+            console.log(year + " is a leap year.");
+        }
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseFloat(prompt("Enter the first number:"));
+        var b = parseFloat(prompt("Enter the second number:"));
+        var c = parseFloat(prompt("Enter the third number:"));
+
+        let largest = a;
+
+        if (b > largest) {
+            largest = b;
+
+        }
+
+        if (c > largest) {
+            largest = c;
+        }
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let number = parseInt(prompt("Write a number"));
+
+        number % 2 === 0 ? alert('Even') : alert('Odd');
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let userInput = prompt('What size of pizza do you want');
+
+        let radius;
+
+        switch (userInput) {
+            case 'small':
+                diameter = 20;
+                break;
+            case 'medium':
+                diameter = 40;
+                break;
+            case 'large':
+                diameter = 50;
+                break;
+            default:
+                throw new Error('Invalid pizza size');
+        }
+
+        alert(`Your pizza is `)
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //input
+        let firstNumber = parseFloat(prompt('Write a number'));
+
+        let operation = prompt('Shkruani nje operacion');
+
+        let secondNumber = parseFloat(prompt('Shkruaj numrin e dyte');)
+
+        //logic
+        let result;
+
+        if (operation === 'plus') {
+            result = firstNumber + secondNumber;
+        }
+        else if (operation === 'minus') {
+            result = firstNumber - secondNumber;
+        }
+        else if (operation === 'here') {
+            result = firstNumber * secondNumber;
+        }
+        else if (operation === 'pjestim') {
+            if (secondNumber === 0)
+                throw new Error('Cannot divide by zero!')
+
+            result = firstNumber / secondNumber;
+        }
+        else {
+            throw new Error('Unsupported Operation');
+        }
+        //output
+        alert(`${firstNumber} ${operation} ${secondNumber} = ${result}`);
+        d.sh me switch
+    </script>
+</body>
+
+</html>
